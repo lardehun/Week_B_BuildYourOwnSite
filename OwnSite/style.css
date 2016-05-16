@@ -1,0 +1,125 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+	
+body { 	
+	background: transparent url("resource/images/backgroundTile.png") top left repeat; 
+	margin: 0; 
+	padding: 0;
+	}
+	
+	
+	
+nav h1{
+	color: #73AD21;
+	font: 1.5em "Open Sans", sans-serif;
+	float:right;
+	margin: 10px; 
+	padding: 0;
+}
+
+h2{
+	text-align:center;
+	color: silver;
+	font-size: 1.75em;
+}
+	
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	
+}
+
+nav{
+	background-image: url("resource/images/topbar.png");
+    background-repeat: repeat-x;
+}
+
+p{
+	margin: 0;
+    padding: 0;
+	line-height: 1.5;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+	text: serif, monospace;
+	font-size: 1.25em;
+    display: block;
+    color: #282828;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+nav li a:hover {
+    background-color: #282828;
+	color: #fff
+}
+
+.content{
+	color: silver;
+	font-size: 1.5em;
+	margin: auto;
+    width: 70%;
+    border: 2px solid #73AD21;
+    padding: 10px;
+	background-image: url("resource/images/bigBackgroundTile.png");
+    background-repeat: repeat;
+	color = silver;
+}
+
+.explanation{
+	text-align:center;
+	color: silver;
+	font-size: 1em;
+	margin-bottom: 50px;
+}
+
+.explanation li{
+	text-align:left;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	margin-bottom: 20px;}
+
+footer{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.50rem;
+	text-align: right;
+	color: silver;
+}
+
+input, label ,textarea{
+	margin-left: 40%;
+    display:block;
+	align:middle;
+}
+
+textarea {
+    width: 200px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+input{
+	width: 200px;
+}
+
+

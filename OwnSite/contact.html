@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8">
+	<title>My Website For Web Self Week</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="Web site for school project.">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Máté Szabó">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1>My Website</h1>
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="task.html" title="Task">My Task</a></li>
+				<li><a href="contact.html" title="Contact" class = "active">Contact</a></li>			
+			</ul>
+		</nav>
+		
+	</header>
+	
+	
+	<div class = "content" role = "main">
+		<form name="contact" id="contact" type="post" method="post" enctype="text/plain">
+			<div id="name">
+				<label>Name:</label>
+				<input type="text" id="name" placeholder = "Enter your name.">
+			</div>
+			
+			<div id="mail">
+				<label>E-mail:</label>
+				<input type="text" id="mail" placeholder = "Give your email.">
+			</div>
+			
+			<div id="comment">
+				<label>Comment:</label>
+				<textarea name="comment" placeholder = "Write your comment here."></textarea>
+			</div>
+			
+			<div id="button">
+				<input type="submit" value="Send">
+			</div>
+		</form>
+	</div>
+	
+	
+	<footer>
+		Copyright &copy; Szabó Máté.
+	</footer>
+	
+	<script src="js/main.js"></script>
+</body>
